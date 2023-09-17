@@ -1,0 +1,1351 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  scroll-behavior: smooth;
+}
+
+
+
+  .lucky{
+    width:70%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+  }
+
+#MENU {
+  background-color: #023047;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+   position: -webkit-sticky;
+  position:sticky;
+  top:0;
+  z-index: 2;
+  justify-content:space-between;
+  overflow: hidden;
+}
+
+#MENU img {
+  width: 18em;
+  padding-left: 5em;
+}
+
+#MENU ul {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  gap: 2em;
+  padding-right: 5em;
+  justify-content: space-between;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.5em;
+  padding-top:1em;
+}
+
+#MENU li {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+#MENU a {
+  text-decoration: none;
+  color: white;
+}
+
+
+#MENU.transparent {
+  background-color: rgba(2, 48, 71, 0.5);
+}
+#INICIO{
+  background-color:#023047;
+  color: white;
+  padding-top:9em;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  padding-bottom:6em;
+  margin-bottom:4em;
+
+}
+.INICIOIZQ{
+  grid-column:1;
+height:auto;
+padding-left:6em;
+  padding-right:6em;
+}
+.INICIOIZQ h1{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size:8em;
+  letter-spacing:0.01em;
+  padding-top:0.2em;
+}
+.INICIOIZQ P{
+  font-family: century-gothic, sans-serif;
+  font-size:1em;
+  padding-bottom:2em;
+  width:100%;
+}
+.INICIOIZQ button{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size:1.3em;
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  text-align: center;
+  text-decoration: none;
+  border: solid white 2px;
+  border-radius: 5px;
+  color:white;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  background-color:#023047;
+}
+.INICIOIZQ button:hover {
+  background-color: #ff9966;
+}
+
+.INICIODER{
+   grid-column:2;
+  padding-inline:3em;
+}
+
+.INICIODER video{
+  max-width:100%;
+  
+}
+
+#BENEFICIOS{
+  background-color:white;
+}
+.tituloben{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size:3vw;
+  display:flex;
+  justify-content:center;
+  letter-spacing:0.05em;
+  color:#ff9966;
+  padding-top:1em;
+  padding-bottom:0.6em
+}
+.textoben1{
+  display:flex;
+  font-family: century-gothic, sans-serif;
+  font-size:1em;
+  width:40%;
+  justify-content:center;
+}
+.publicidad1,.publicidad2,.publicidad3{
+  background-color:#ff9966;
+  display:flex;
+  flex-direction:column;
+  width:25%;
+  padding:2em;
+  color:white;
+  align-items:center;
+  border-radius:10px;
+
+}
+.publicidades{
+  display:flex;
+  justify-content:center;
+  padding-top:3em;
+  justify-items:center;
+  gap:4em;
+  padding-bottom:4em;
+  align-content:center;
+}
+.publicidades img{
+  width:12em;
+  padding-bottom:2em;
+  display:flex;
+  justify-content:center;
+
+  
+}
+.publicidad1 h1{
+  text-align: center;
+    letter-spacing:0.05em;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.publicidad1 p{
+  font-family: century-gothic, sans-serif;
+}
+.publicidad2 h1{
+    letter-spacing:0.05em;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.publicidad2 p{
+  font-family: century-gothic, sans-serif;
+}
+.publicidad3 h1{
+    letter-spacing:0.05em;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.publicidad3 p{
+  font-family: century-gothic, sans-serif;
+}
+.servicios{
+  display:flex;
+  justify-content:center;
+  gap:4em;
+  padding-bottom:4em;
+}
+
+.servicios1,.servicios2{
+  background-color:#ff9966;
+  padding:2em;
+  width:35%;
+  border-radius:10px;
+  font-family: century-gothic, sans-serif;
+  color:white;
+  font-size:1em;
+}
+.tituloser{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size:3em;
+  display:flex;
+  justify-content:center;
+  letter-spacing:0.05em;
+  color:#ff9966;
+  padding-bottom:0.6em
+}
+.textoser{
+  display:flex;
+  font-family: century-gothic, sans-serif;
+  font-size:1em;
+  width:40%;
+  justify-content:center;
+  padding-bottom:6em;
+  }
+.listaser{
+  list-style:none;
+  text-decoration:none;
+  display:flex;
+  flex-direction:column;
+  gap:1em;
+  padding:0em;
+}
+.contser{
+  font-family: century-gothic, sans-serif;
+}
+
+#PLANES{
+  background-color:#023047;
+  color:white;
+  padding-top:4em;
+}
+.TITULOMEM{
+  display:flex;
+  justify-content:center;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing:0.05em;
+  font-size:3em;
+}
+.textomem{
+  display:flex;
+  font-family: century-gothic, sans-serif;
+  font-size:1em;
+  width:60%;
+  justify-content:center;
+  padding-bottom:6em;
+  padding-top:2em;
+  }
+.PAQUETES{
+  display:flex;
+  justify-content:center;
+  gap:8em;
+  padding-bottom:4em;
+  color:#023047;
+}
+.PAQUETE1,.PAQUETE2,.PAQUETE3{
+  background-color:white;
+  padding:2em;
+  width:25%;
+  border-radius:10px;
+}
+.TITULO1{
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing:0.05em;
+  font-size:1.8em;
+}
+.CONTENIDO1{
+  font-family: century-gothic, sans-serif;
+  font-size:1em;
+  padding-bottom:3em;
+}
+.PRECIO1{
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing:0.05em;
+  font-size:2em;
+  padding-bottom:1em
+}
+.SUSCRIBIRME{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size:1.3em;
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  text-align: center;
+  text-decoration: none;
+  border: solid #023047 2px;
+  border-radius: 5px;
+  color:#023047;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  background-color:#ffffff;
+  width:100%;
+  margin-bottom:2em;
+}
+.SUSCRIBIRME:hover{
+  background-color:black;
+  color:white;
+}
+.contenidoplanes{
+  font-family: century-gothic, sans-serif;
+  font-size:1em;
+  padding-bottom:1em;
+  padding-left:1em;
+}
+.TITULO2{
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing:0.05em;
+  font-size:1.8em;
+}
+.CONTENIDO2{
+  font-family: century-gothic, sans-serif;
+  font-size:1em;
+  padding-bottom:3em;
+}
+.PRECIO2{
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing:0.05em;
+  font-size:2em;
+  padding-bottom:1em
+  }
+.TITULO3{
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing:0.05em;
+  font-size:1.8em;
+}
+.CONTENIDO3{
+  font-family: century-gothic, sans-serif;
+  font-size:1em;
+  padding-bottom:3em;
+}
+.PRECIO3{
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing:0.05em;
+  font-size:2em;
+  padding-bottom:1em
+  }
+#NOSOTROS{
+  display:flex;
+  justify-content:center;
+  padding-top:4em;
+  padding-bottom:2em;
+  gap:3em;
+}
+#NOSOTROS IMG{
+  width:35em;
+}
+#MISION{
+  display:flex;
+  flex-direction:column;
+  justify-items:center;
+  align-items:center;
+  gap:2em;
+}
+#MISION p {
+  display:flex;
+  flex-direction:column;
+  justify-items:center;
+  align-items:center;
+  gap:2em;
+}
+#MISION H1{
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing:0.05em;
+  font-size:2em;
+  color:#ff9966;
+}
+#VISION H1{
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing:0.05em;
+  font-size:2em;
+  color:#ff9966;
+}
+#VALORES H1{
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing:0.05em;
+  font-size:2em;
+  color:#ff9966;
+}
+#VISION{
+  display:flex;
+  flex-direction:column;
+  justify-items:center;
+  align-items:center;
+  gap:2em;
+  font-family: century-gothic, sans-serif;
+  font-size:1em;
+}
+#VALORES{
+  display:flex;
+  flex-direction:column;
+  justify-items:center;
+  align-items:center;
+  gap:2em;
+  font-family: century-gothic, sans-serif;
+  font-size:1em;
+}
+#PORTAFOLIO{
+  background-color:#ffffff;
+  background-size:cover;
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  align-items:center;
+  
+}
+.carrusel{
+  width:60em;
+}
+#PORTAFOLIO IMG{
+  width:20%;
+  display:flex;
+  justify-content:center;
+  
+}
+#PORTAFOLIO H1{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size:3em;
+  display:flex;
+  justify-content:center;
+  letter-spacing:0.05em;
+  color:#023047;
+  padding-top:1em;
+  padding-bottom:1em;
+
+}
+
+#ALIADOS{
+  background-color:#023047;
+  color:white;
+}
+#ALIADOS IMG{
+  width:10em;
+  
+}
+#ALIADOS H1{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size:2em;
+  display:flex;
+  justify-content:center;
+  letter-spacing:0.05em;
+  color:#ffffff;
+  padding-top:1em;
+  padding-bottom:0.6em
+}
+.ALOGOS{
+  display:flex;
+  justify-content:center;
+  padding-top:2em;
+  padding-bottom:2em;
+  gap:8em;
+  align-items:Center;
+  
+}
+.ALOGOS:hover{
+  filter: grayscale(0);
+}
+.ALOGOS #PSICO IMG{
+  width:8em;
+  padding-bottom:1em;
+  
+}
+#COGOTE{
+  filter: grayscale(-2);
+}
+#COGOTE:hover{
+  filter: grayscale(0);
+  transition:0.5s;
+}
+
+#PSICO{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  filter: grayscale(1);
+}
+#PSICO:hover{
+  filter: grayscale(0);
+  transition:0.5s;
+}
+#GATO{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  filter: grayscale(1);
+}
+#GATO:hover{
+  filter: grayscale(0);
+  transition:0.5s;
+}
+#GATO IMG{
+  width:11em;
+}
+#WILDFORCE{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  filter: grayscale(1);
+}
+#WILDFORCE:hover{
+  filter: grayscale(0);
+  transition:0.5s;
+}
+
+#WILDFORCE P{
+  padding-top:2.3em;
+}
+  
+.nombressocios{
+  font-family: century-gothic, sans-serif;
+  font-size:1em;
+  padding-bottom:2em;
+}
+
+.fundadoresmarca{
+  letter-spacing:0.05em;
+  font-family: 'Bebas Neue', sans-serif;
+  display:flex;
+  justify-content:center;
+  letter-spacing:0.05em;
+  color:#ff9966;
+  padding-top:1em;
+  padding-bottom:0.6em
+}
+
+.INTEGRANTES{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding-top:2em;
+  gap:6em;
+  font-family: century-gothic, sans-serif;
+  padding-bottom:5em;
+  position:relative;
+}
+.INTEGRANTES h1{
+  font-size:1.2em !important;
+
+}
+.INTEGRANTES img{
+  padding-bottom:1em;
+  padding-inline:2%;
+}
+
+/*TARJETA JUAN DAVID*/
+.CARDJUANPRIETO{
+  width:12em;
+  position:relative;
+  transition:transform 1500ms;
+  transform-style:preserve-3d;
+  
+  
+}
+.nombrei{
+  position:absolute;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  color:white;
+}
+.CARDJUANPRIETO:hover{
+  cursor:pointer;
+  transform: rotateY(180deg);
+}
+.front,.back{
+  width:100%;
+  border-radius:50%;
+  position:absolute;
+  backface-visibility:hidden;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  
+}
+.back{
+  background-repeat:no-repeat;
+  background-size:cover;
+  transform:rotateY(180deg);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background-color:#023047;
+  padding:5.8em;
+  text-align:center;
+  
+}
+.CARDJUANDB{
+  width:12em;
+  position:relative;
+  transition:transform 1500ms;
+  transform-style:preserve-3d;
+}
+.CARDJUANDB:hover{
+  cursor:pointer;
+  transform: rotateY(180deg);
+}
+.CARDJUANMANUEL{
+  width:12em;
+  position:relative;
+  transition:transform 1500ms;
+  transform-style:preserve-3d;
+}
+.CARDJUANMANUEL:hover{
+  cursor:pointer;
+  transform: rotateY(180deg);
+}
+.CARDANDRES{
+  width:12em;
+  position:relative;
+  transition:transform 1500ms;
+  transform-style:preserve-3d;
+}
+.CARDANDRES:hover{
+  cursor:pointer;
+  transform: rotateY(180deg);
+
+}
+#JUANBERNAL{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+#JUANRODRIGUEZ{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+#JEIMMYSILVA{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+#RASHELGUZMAN{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+#ANDRESMARIN{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.p4p4{
+  width:100%;
+}
+#JUANBERNAL img{
+  width:15em;
+}
+#JUANRODRIGUEZ img{
+  width:15em;
+}
+#ANDRESMARIN img{
+  width:15em;
+}
+
+#JEIMMYSILVA img{
+  width:15em;
+}
+#RASHELGUZMAN img{
+  width:15em;
+}
+
+
+#FOOTER{
+  background-color:#023047;
+  align-items:center;
+  display:flex;
+  padding-top:4em;
+  color:white;
+  justify-content:space-around;
+  align-items:center;
+}
+#FOOTER img{
+  width:18em;
+  padding-bottom:3em
+}
+#FOOTER H1{
+  font-family: century-gothic, sans-serif;
+  font-size:20px;
+  padding-bottom:4em;
+}
+#PLANLANZ{
+  display:flex;
+  padding-top:4em;
+  justify-content:space-between;
+  padding-inline:6em;
+}
+.tituloplanlanz{
+  letter-spacing:0.05em;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size:5em;
+  color:#023047;
+}
+.SUSCRIBIRME2{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size:1.3em;
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  text-align: center;
+  text-decoration: none;
+  border: solid #023047 2px;
+  border-radius: 5px;
+  color:#023047;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  background-color:#ffffff;
+  width:100%;
+  margin-bottom:2em;
+  width:50%;
+  align-items:center;
+  margin-top:em;
+}
+.SUSCRIBIRME2:hover{
+  background-color:black;
+  color:white;
+}
+
+.MASCOTA{
+  display:flex;
+  padding-inline:6em;
+  padding-top:20em;
+  padding-bottom:5em;
+}
+.MASCOTAIZQ{
+  width:50%;
+}
+
+.lucky3d{
+  width:50vw !important ;
+}
+.MASCOTA H1{
+  font-family: 'Bebas Neue', sans-serif;
+   font-size:3em;
+  color:#023047;
+  padding-bottom:0.5em;
+}
+.MASCOTA P{
+  font-family: century-gothic, sans-serif;
+}
+#MERCHANDISING{
+  padding-top:6em;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+#MERCHANDISING h1{
+  letter-spacing:0.05em;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size:3em;
+  color:#023047;
+}
+#MERCHANDISING p{
+  font-family: century-gothic, sans-serif;
+  text-align:center;
+  color:#000000;
+  width:60%;
+  padding-top:2em;
+  padding-bottom:6em;
+}
+.MERCH{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows:1fr 1fr;
+  padding-bottom:5em;
+  width:92%;
+}
+.libreta{
+  grid-column:1;
+  display:flex;
+  justify-content:center;
+  grid-row:1/3;
+  border-radius:8%;
+
+  padding:0.1em;
+}
+.libreta img{
+  max-width:30em;
+  transition: transform 0.3s ease;
+}
+.libreta img:hover{
+  transform: scale(1.1);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.mano{
+  grid-column:2;
+  display:flex;
+  justify-content:center;
+  grid-row:2;
+    border-radius:8%;
+  transition: transform 0.3s ease;
+
+}
+.mano:hover{
+  transform: scale(1.1);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.mano img{
+  max-width:30em;
+  
+}
+.gorra{
+  grid-column:2;
+  display:flex;
+  justify-content:center;
+  grid-row:1;
+  transition: transform 0.3s ease;
+  border-radius:8%;
+}
+.gorra img{
+    width:100%;
+    height:auto;
+}
+.gorra:hover{
+  transform: scale(1.1);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.mug{
+  grid-column:3;
+  display:flex;
+  justify-content:center;
+  grid-row:1;
+  transition: transform 0.3s ease;
+  border-radius:8%;
+}
+.mug img{
+    width:auto;
+    height:25em;
+}
+.mug:hover{
+  transform: scale(1.1);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.camiseta{
+  grid-column:3;
+  display:flex;
+  justify-content:center;
+  grid-row:2;
+  transition: transform 0.3s ease;
+  border-radius:8%;
+}
+.camiseta img{
+    width:auto;
+    height:25em;
+}
+.camiseta:hover{
+  transform: scale(1.1);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+@media only screen and (max-width: 1300px){
+  .INTEGRANTES{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+    gap:15em;
+    flex-grow: 3;
+  }
+}
+
+@media only screen and (max-width: 576px){
+  
+  body
+  {
+    align-items:center;
+    flex-direction:column;
+  }
+  #MENU {
+  width: 100%;
+  display: flex;
+  flex-direction:column;
+  height:auto;
+  
+}
+  #MENU img {
+  width: 14em;
+  padding-left: 0em;
+  padding-bottom:1em;
+  padding-top:1em;
+}
+
+  #INICIO{
+  background-color:#023047;
+  color: white;
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  padding-top:0;
+}
+  #MENU ul {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  padding-right: 0em;
+  justify-content: space-between;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.5em;
+  padding-top:1em;
+  flex-direction:column;
+}
+  .INICIOIZQ{
+  height:auto;
+  padding-left:0em;
+  display:grid;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  grid-column:1;
+  justify-items:center;
+  padding-right:0em;
+  padding-inline:1em;
+}
+.INICIODER{
+  width:50%;
+  padding-inline:0.2em;
+  padding-top:3em;
+}
+  .INICIODER video{
+    width:34em;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    padding-left:0em;
+    justify-content:center;
+    
+    
+  }
+.INICIOIZQ h1{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size:4em;
+  letter-spacing:0.01em;
+  padding-top:1em;
+  align-items:center;
+  justify-items:center;
+  text-align:center;
+}
+  .INICIOIZQ P{
+    text-align:center;
+  }
+#BENEFICIOS{
+  background-color:white;
+  display:flex;
+  flex-direction:column;
+}
+  .tituloben{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size:2em;
+  display:flex;
+  justify-content:center;
+  letter-spacing:0.05em;
+  color:#ff9966;
+  padding-top:1em;
+  padding-bottom:0.6em;
+  text-align:center;
+}
+  .publicidades{
+  display:flex;
+  justify-content:center;
+  padding-top:3em;
+  justify-items:center;
+  gap:4em;
+  padding-bottom:4em;
+  align-content:center;
+  flex-direction:column;
+  width:100%;
+}
+.publicidad1,.publicidad2,.publicidad3{
+  background-color:#ff9966;
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  padding:2em;
+  color:white;
+  align-items:center;
+  border-radius:10px;
+  padding-inline:1em;
+}
+.publicidades img{
+  width:8em;
+  padding-bottom:2em;
+  display:flex;
+  justify-content:center;
+}
+  .PAQUETES{
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  gap:8em;
+  padding-bottom:4em;
+}
+  .PAQUETE1,.PAQUETE2,.PAQUETE3{
+  background-color:white;
+  padding:2em;
+  width:100%;
+  border-radius:10px;
+}
+  .PAQUETE3{
+    padding-bottom:2em;
+  }
+  .carrusel{
+  width:36em;
+}
+  #NOSOTROS{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+  }
+  .ALOGOS{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    gap:1em;
+  }
+  .INTEGRANTES{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+    gap:15em;
+  }
+  #FOOTER{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    align-items:center;
+  }
+  .MASCOTA{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    padding-inline:1em;
+    
+  }
+  .lucky{
+    max-width:100%;
+    display:flex;
+    justify-content:center;
+    padding-right:1em;
+    padding-left:0em;
+    z-index:250
+  }
+  #MERCHANDISING p{
+  font-family: century-gothic, sans-serif;
+  text-align:center;
+  color:#000000;
+  width:60%;
+  padding-top:2em;
+  padding-bottom:6em;
+}
+.MERCH{
+  display:flex;
+  flex-direction:column;
+  grid-template-rows:1fr 1fr;
+  padding-bottom:5em;
+  width:92%;
+}
+
+}
+/* Estilos para resolución de 768px o más */
+@media only screen and (max-width: 1000px) {
+  body {
+    align-items: center;
+    flex-direction: column;
+  }
+  #MERCHANDISING p{
+  font-family: century-gothic, sans-serif;
+  text-align:center;
+  color:#000000;
+  width:60%;
+  padding-top:2em;
+  padding-bottom:6em;
+}
+.MERCH{
+  display:flex;
+  flex-direction:column;
+  grid-template-rows:1fr 1fr;
+  padding-bottom:5em;
+  width:92%;
+}
+
+  #MENU {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  #MENU img {
+    width: 14em;
+    padding-left: 0em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+  }
+
+  #INICIO {
+    background-color: #023047;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 0;
+  }
+
+  #MENU ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    padding-right: 0em;
+    justify-content: space-between;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5em;
+    padding-top: 1em;
+    flex-direction: column;
+  }
+
+  .INICIOIZQ {
+    height: auto;
+    padding-left: 0em;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1;
+    justify-items: center;
+    padding-right: 0em;
+    padding-inline: 1em;
+  }
+
+  .INICIODER {
+    width: 100%;
+    padding-inline: 0.2em;
+    padding-top: 3em;
+  }
+
+  .INICIODER video {
+    max-width:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 0em;
+    justify-content:center;
+    padding-right:0em;
+  }
+
+  .INICIOIZQ h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 4em;
+    letter-spacing: 0.01em;
+    padding-top: 1em;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .INICIOIZQ p {
+    text-align: center;
+  }
+
+  #BENEFICIOS {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tituloben {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.05em;
+    color: #ff9966;
+    padding-top: 1em;
+    padding-bottom: 0.6em;
+  }
+
+  .publicidades {
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+    justify-items: center;
+    gap: 4em;
+    padding-bottom: 4em;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .publicidad1,
+  .publicidad2,
+  .publicidad3 {
+    background-color: #ff9966;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2em;
+    color: white;
+    align-items: center;
+    border-radius: 10px;
+    padding-inline: 1em;
+  }
+
+  .publicidades img {
+    width: 8em;
+    padding-bottom: 2em;
+    display: flex;
+    justify-content: center;
+  }
+
+  .PAQUETES {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 8em;
+    padding-bottom: 4em;
+  }
+
+  .PAQUETE1,
+  .PAQUETE2,
+  .PAQUETE3 {
+    background-color: white;
+    padding: 2em;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .PAQUETE3 {
+    padding-bottom: 2em;
+  }
+
+  .carrusel {
+    width: 36em;
+  }
+
+  #NOSOTROS {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .ALOGOS {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1em;
+  }
+
+  .INTEGRANTES {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 15em;
+  }
+
+  #FOOTER {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .MASCOTA {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
+.go-up-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 999;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition:auto;
+}
+.go-up-button i {
+  font-size: 20px;
+}
+.go-up-button:hover {
+  background-color: #cccccc;
+}
+#btn-mas {
+  display: none;
+
+}
+
+.contenedor {
+  position: fixed !important;
+  bottom: 100px;
+  right:26px;
+  z-index: 9999;
+}
+
+
+.redes a,.icon-mas2 {
+  display: block;
+  text-decoration: none;
+  background: #ff9966;
+  color: #ffffff;
+  width: 55px;
+  height: auto;
+  line-height: 55px;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+  transition: all 500ms ease;
+}
+
+.redes a {
+  margin-bottom: -15px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.redes a:hover {
+  background: #ffffff;
+  color: #ff9966;
+}
+
+#btn-mas:checked ~ .redes a {
+  margin-bottom: 10px;
+  opacity: 1;
+  visibility: visible;
+}
