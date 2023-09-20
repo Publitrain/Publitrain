@@ -1279,7 +1279,6 @@ padding-left:6em;
 
   .MASCOTA {
     display: flex;
-    flex-direction: column;
     text-align: center;
   }
 }
