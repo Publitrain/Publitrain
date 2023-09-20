@@ -791,10 +791,7 @@ padding-left:6em;
   max-width:30em;
   transition: transform 0.3s ease;
 }
-.libreta img:hover{
-  transform: scale(1.1);
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-}
+
 .mano{
   grid-column:2;
   display:flex;
@@ -804,10 +801,7 @@ padding-left:6em;
   transition: transform 0.3s ease;
 
 }
-.mano:hover{
-  transform: scale(1.1);
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-}
+
 .mano img{
   max-width:30em;
   
@@ -824,10 +818,7 @@ padding-left:6em;
     width:100%;
     height:auto;
 }
-.gorra:hover{
-  transform: scale(1.1);
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-}
+
 .mug{
   grid-column:3;
   display:flex;
@@ -840,10 +831,7 @@ padding-left:6em;
     width:auto;
     height:25em;
 }
-.mug:hover{
-  transform: scale(1.1);
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-}
+
 .camiseta{
   grid-column:3;
   display:flex;
@@ -856,10 +844,7 @@ padding-left:6em;
     width:auto;
     height:25em;
 }
-.camiseta:hover{
-  transform: scale(1.1);
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-}
+
 @media only screen and (max-width: 1300px){
   .INTEGRANTES{
     display:flex;
