@@ -5,17 +5,138 @@
 }
 body{
   scroll-behavior: smooth;
+  
+}
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+}
+
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: -5em;
+  
 }
 
 
+.popup .popuptext2 {
+  visibility: hidden;
+  width: 160px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 15em;
+  
+}
+.popup .popuptext3 {
+  visibility: hidden;
+  width: 160px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 15em;
+  
+}
+.popup .popuptext4 {
+  visibility: hidden;
+  width: 160px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 15em;
+  
+}
+.popup .popuptext5 {
+  visibility: hidden;
+  width: 160px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 15em;
+  
+}
+.popup .popuptext6 {
+  visibility: hidden;
+  width: 160px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 15em;
+  
+}
+.popup .popuptext7 {
+  visibility: hidden;
+  width: 160px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 15em;
+  
+}
+.popup .popuptext8 {
+  visibility: hidden;
+  width: 160px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 15em;
+  
+}
+.popup .popuptext9 {
+  visibility: hidden;
+  width: 160px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 15em;
+  
+}
+.popup .popuptext10 {
+  visibility: hidden;
+  width: 160px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 15em;
+  
+}
+.exteriores{
+  width:30em;
+  height:auto;
+  border-radius:5%;
+}
+.popup .show {
+  visibility: visible;
+  animation: fadeIn 1s;
+}
+.postig{
+  display:flex;
+  gap:5em;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.btn-banner {
+  background:none;
+  border:none;
+  color:#ffffff
+}
 
   .lucky{
-    width:70%;
+    width:100%;
     display:flex;
     justify-content:center;
     align-items: center;
   }
-
+.spline{
+  width:50%;
+}
 #MENU {
   background-color: #023047;
   display: flex;
@@ -45,12 +166,14 @@ body{
   font-family: 'Bebas Neue', sans-serif;
   font-size: 1.5em;
   padding-top:1em;
+  
 }
 
 #MENU li {
   color: white;
   text-decoration: none;
   list-style: none;
+  
 }
 
 #MENU a {
@@ -116,6 +239,14 @@ padding-left:6em;
 .INICIODER video{
   max-width:100%;
   
+}
+.INICIODER2{
+  display:flex;
+  justify-content:center;
+  padding-bottom:4em;
+}
+.INICIODER2 video{
+  max-width:50%;
 }
 
 #BENEFICIOS{
@@ -682,10 +813,12 @@ padding-left:6em;
   color:white;
   justify-content:space-around;
   align-items:center;
+  
 }
 #FOOTER img{
-  width:18em;
+  width:15em;
   padding-bottom:3em
+  
 }
 #FOOTER H1{
   font-family: century-gothic, sans-serif;
@@ -731,14 +864,14 @@ padding-left:6em;
 .MASCOTA{
   display:flex;
   padding-inline:6em;
-  padding-top:20em;
+  padding-top:15em;
   padding-bottom:5em;
 }
 .MASCOTAIZQ{
   width:50%;
 }
 
-.lucky3d{
+  .lucky3d{
   width:50vw !important ;
 }
 .MASCOTA H1{
@@ -864,6 +997,39 @@ padding-left:6em;
     align-items:center;
     flex-direction:column;
   }
+  canvas{
+    width:98%;
+  }
+  .videoinclusivo{
+    display:flex;
+    max-width:20%;
+  }
+  .textoben1{
+    width:80%;
+  }
+
+  .postig{
+  display:flex;
+  gap:5em;
+  flex-direction:column;
+}
+  .textoser{
+    width:90%;
+  }
+   .textomem{
+    width:90%;
+  }
+  .servicios{
+    display:flex;
+    width:100%;
+    flex-direction:column;
+  }
+  .servicios1{
+    width:100%;
+  }
+  .servicios2{
+    width:100%;
+  }
   #MENU {
   width: 100%;
   display: flex;
@@ -896,7 +1062,7 @@ padding-left:6em;
   font-family: 'Bebas Neue', sans-serif;
   font-size: 1.5em;
   padding-top:1em;
-  flex-direction:column;
+  flex-direction:row;
 }
   .INICIOIZQ{
   height:auto;
@@ -941,6 +1107,53 @@ padding-left:6em;
   background-color:white;
   display:flex;
   flex-direction:column;
+}
+  
+  
+.popup .popuptext {
+  bottom: 150%;
+  left: 8%;
+  
+  
+}
+
+.popup .popuptext2 {
+  left: 50%;
+}
+.popup .popuptext3 {
+
+    left: 50%;
+}
+.popup .popuptext4 {
+
+  left: 20%;
+  
+}
+.popup .popuptext5 {
+
+  left: 20%;
+  
+}
+.popup .popuptext6 {
+
+  left:20%;
+  
+}
+.popup .popuptext7 {
+
+  left: 50%;
+  
+}
+.popup .popuptext8 {
+  left: 18%;
+  
+}
+.popup .popuptext9 {
+  left: 50%;
+  
+}
+.popup .popuptext10 {
+  left: 20%;
 }
   .tituloben{
   font-family: 'Bebas Neue', sans-serif;
@@ -1029,6 +1242,8 @@ padding-left:6em;
     display:flex;
     text-align:center;
     padding-inline:1em;
+
+ 
     
   }
   .lucky{
@@ -1037,8 +1252,11 @@ padding-left:6em;
     justify-content:center;
     padding-right:1em;
     padding-left:0em;
-    z-index:250
+    z-index:1;
   }
+  .spline{
+  width:120%;
+}
   #MERCHANDISING p{
   font-family: century-gothic, sans-serif;
   text-align:center;
@@ -1062,6 +1280,56 @@ padding-left:6em;
     align-items: center;
     flex-direction: column;
   }
+.exteriores{
+  width:15em;
+  height:auto;
+  border-radius:5%;
+}
+  .popup .popuptext {
+  bottom: 150%;
+  left: 8%;
+  
+  
+}
+.popup .popuptext2 {
+  left: 50%;
+  width:20%;
+}
+.popup .popuptext3 {
+
+    left: 50%;
+}
+.popup .popuptext4 {
+
+  left: 20%;
+  
+}
+.popup .popuptext5 {
+
+  left: 20%;
+  
+}
+.popup .popuptext6 {
+
+  left:20%;
+  
+}
+.popup .popuptext7 {
+
+  left: 50%;
+  
+}
+.popup .popuptext8 {
+  left: 18%;
+  
+}
+.popup .popuptext9 {
+  left: 50%;
+  
+}
+.popup .popuptext10 {
+  left: 20%;
+}
   #MERCHANDISING p{
   font-family: century-gothic, sans-serif;
   text-align:center;
@@ -1069,6 +1337,12 @@ padding-left:6em;
   width:60%;
   padding-top:2em;
   padding-bottom:6em;
+}
+  .postig{
+  display:flex;
+  gap:5em;
+  flex-wrap:wrap;
+  justify-content:center;
 }
 .MERCH{
   display:flex;
@@ -1111,7 +1385,7 @@ padding-left:6em;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 1.5em;
     padding-top: 1em;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .INICIOIZQ {
@@ -1243,6 +1517,7 @@ padding-left:6em;
     flex-direction: column;
     width: 100%;
     gap: 1em;
+    
   }
 
   .INTEGRANTES {
@@ -1264,6 +1539,9 @@ padding-left:6em;
   .MASCOTA {
     display: flex;
     text-align: center;
+    align-items: center;
+    flex-direction:column-reverse;
+    
   }
 }
 
@@ -1331,4 +1609,9 @@ padding-left:6em;
   margin-bottom: 10px;
   opacity: 1;
   visibility: visible;
+}
+@media only screen and (max-width: 1200px) {
+  .INTEGRANTES{
+    flex-wrap:wrap;
+  }
 }
